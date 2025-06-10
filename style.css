@@ -1,0 +1,143 @@
+ /* GLOBAL STYLES */
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      font-family: sans-serif;
+    }
+    canvas {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+    /* COMMON PANEL STYLE */
+    #menu,
+    #controls,
+    #exportPanel,
+    #parameterPanel,
+    #lightingPanel,
+    #materialPanel,
+    #animationPanel,
+    #cameraPanel,
+    #presetPanel,
+    #importPanel,
+    #translationPanel,
+    #infoPanel {
+      position: absolute;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 10px;
+      border-radius: 8px;
+      z-index: 10;
+      color: #fff;
+      font-size: 14px;
+    }
+    /* Shape Menu: Top-left */
+    #menu {
+      top: 10px;
+      left: 10px;
+      max-height: 90%;
+      overflow-y: auto;
+    }
+    #menu button {
+      margin: 3px;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+    /* Object Color Control: Top-right */
+    #controls {
+      top: 10px;
+      right: 10px;
+    }
+    #controls input[type="color"] {
+      margin-left: 5px;
+      cursor: pointer;
+    }
+    /* Export Panel: Below Object Color */
+    #exportPanel {
+      top: 80px;
+      right: 10px;
+    }
+    #exportPanel button {
+      margin: 3px;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+    /* Scale Parameter Panel: Top-right */
+    #parameterPanel {
+      top: 150px;
+      right: 10px;
+    }
+    #parameterPanel input[type="range"] {
+      cursor: pointer;
+    }
+    /* Lighting Control Panel: Top-right */
+    #lightingPanel {
+      top: 230px;
+      right: 10px;
+    }
+    #lightingPanel input[type="range"],
+    #lightingPanel input[type="color"] {
+      cursor: pointer;
+    }
+    /* Material Editor Panel: Top-right */
+    #materialPanel {
+      top: 310px;
+      right: 10px;
+    }
+    #materialPanel input[type="range"],
+    #materialPanel input[type="color"] {
+      cursor: pointer;
+    }
+    /* Animation Control Panel: Top-right */
+    #animationPanel {
+      top: 430px;
+      right: 10px;
+    }
+    #animationPanel input[type="range"],
+    #animationPanel input[type="checkbox"] {
+      cursor: pointer;
+    }
+    /* Camera Control Panel: Bottom-right */
+    #cameraPanel {
+      bottom: 10px;
+      right: 10px;
+    }
+    #cameraPanel input[type="range"] {
+      cursor: pointer;
+    }
+    /* Preset Panel: Bottom-center */
+    #presetPanel {
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    #presetPanel button {
+      margin: 3px;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+    /* Import Panel: Left side, below menu */
+    #importPanel {
+      top: 250px;
+      left: 10px;
+    }
+    #importPanel input[type="file"] {
+      cursor: pointer;
+    }
+    /* Translation Panel: Bottom-left above info panel */
+    #translationPanel {
+      bottom: 130px;
+      left: 10px;
+    }
+    #translationPanel input[type="range"] {
+      cursor: pointer;
+    }
+    /* Info Panel: Bottom-left */
+    #infoPanel {
+      bottom: 10px;
+      left: 10px;
+      max-width: 350px;
+      white-space: pre-line;
+    }
