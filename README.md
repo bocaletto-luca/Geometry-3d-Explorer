@@ -1,5 +1,5 @@
 # 3D Geometry | Educational | WebApp 🚀
-
+#### Author: Bocaletto Luca
 [![Language: JavaScript](https://img.shields.io/badge/language-JavaScript-yellow.svg)](https://www.javascript.com)  
 [![Technology: Babylon.js](https://img.shields.io/badge/technology-Babylon.js-blue.svg)](https://www.babylonjs.com)  
 [![License: GPL v3](https://img.shields.io/badge/license-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)  
